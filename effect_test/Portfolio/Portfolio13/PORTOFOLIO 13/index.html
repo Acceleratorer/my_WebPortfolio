@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 13</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, <span class="highlight">I am</span></h3>
+            <h1><span class="typing-text">Asep Gustiawan</span></h1>
+            <h2>Full Stack Developer & Creative Designer</h2>
+            <p>I create exceptional digital experiences through innovative web development and stunning design solutions. Passionate about crafting user-centric applications that make a difference.</p>
+            <div class="social-icons">
+                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="btn-container">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="Jujutsu Kaisen - Ryomen Sukuna icon_.jpg" alt="Profile" class="profile-pic">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="Jujutsu Kaisen - Ryomen Sukuna icon_.jpg" alt="About Me" style="border-radius: 10px; box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);">
+        </div>
+        <div class="about-content">
+            <h2>About <span class="highlight">Me</span></h2>
+            <p>As a full-stack developer, I channel the relentless power of innovation to build digital empires. Drawing inspiration from the King of Curses, I create web solutions that dominate the digital realm with precision, creativity, and unyielding strength.</p>
+            <p>My arsenal includes cutting-edge technologies and design mastery. I transform ideas into reality, crafting applications that not only perform flawlessly but also leave an indelible mark on the web landscape.</p>
+            <div class="skills-preview" style="margin-top: 2rem;">
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <span style="background: rgba(255, 0, 0, 0.1); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; color: #ff0000;">React</span>
+                    <span style="background: rgba(255, 0, 0, 0.1); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; color: #ff0000;">Node.js</span>
+                    <span style="background: rgba(255, 0, 0, 0.1); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; color: #ff0000;">Python</span>
+                    <span style="background: rgba(255, 0, 0, 0.1); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; color: #ff0000;">UI/UX</span>
+                </div>
+            </div>
+            <a href="#services" class="btn" style="margin-top: 2rem;">Explore My Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="section-title">Cursed <span class="highlight">Domains</span></h2>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">&lt;/&gt;</div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi itaque similique architecto eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">✏</div>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi itaque similique architecto eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi itaque similique architecto eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Portfolio <span class="highlight">Portfolio</span></h2>
+        <div class="posts-grid">
+            <div class="post-card" data-image="https://picsum.photos/400/400?random=1" data-caption="E-commerce Website: A fully responsive online store built with React and Node.js, featuring secure payment integration and real-time inventory management.">
+                <img src="https://picsum.photos/400/400?random=1" alt="Project 1" class="post-image">
+                <div class="post-content">
+                    <div class="post-header">
+                        <img src="Jujutsu Kaisen - Ryomen Sukuna icon_.jpg" alt="Ryomen Sukuna" class="post-avatar">
+                        <div class="post-info">
+                            <h4>E-commerce Platform</h4>
+                            <span>Web Development</span>
+                        </div>
+                    </div>
+                    <p class="post-caption">E-commerce Website: A fully responsive online store built with React and Node.js, featuring secure payment integration and real-time inventory management.</p>
+                    <div class="post-actions">
+                        <div>
+                            <button class="action-btn view-demo-btn"><i class="fas fa-eye"></i> View Demo</button>
+                            <button class="action-btn view-details-btn"><i class="fas fa-info-circle"></i> Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-card" data-image="https://picsum.photos/400/400?random=2" data-caption="Mobile App UI/UX: Sleek design for a fitness tracking app, created with Figma and Adobe XD, focusing on user engagement and intuitive navigation.">
+                <img src="https://picsum.photos/400/400?random=2" alt="Project 2" class="post-image">
+                <div class="post-content">
+                    <div class="post-header">
+                        <img src="Jujutsu Kaisen - Ryomen Sukuna icon_.jpg" alt="Ryomen Sukuna" class="post-avatar">
+                        <div class="post-info">
+                            <h4>Fitness App Design</h4>
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+                    <p class="post-caption">Mobile App UI/UX: Sleek design for a fitness tracking app, created with Figma and Adobe XD, focusing on user engagement and intuitive navigation.</p>
+                    <div class="post-actions">
+                        <div>
+                            <button class="action-btn view-demo-btn"><i class="fas fa-eye"></i> View Demo</button>
+                            <button class="action-btn view-details-btn"><i class="fas fa-info-circle"></i> Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-card" data-image="https://picsum.photos/400/400?random=3" data-caption="Data Visualization Dashboard: Interactive dashboard using D3.js and Python, providing real-time analytics for business intelligence.">
+                <img src="https://picsum.photos/400/400?random=3" alt="Project 3" class="post-image">
+                <div class="post-content">
+                    <div class="post-header">
+                        <img src="Jujutsu Kaisen - Ryomen Sukuna icon_.jpg" alt="Ryomen Sukuna" class="post-avatar">
+                        <div class="post-info">
+                            <h4>Analytics Dashboard</h4>
+                            <span>Data Visualization</span>
+                        </div>
+                    </div>
+                    <p class="post-caption">Data Visualization Dashboard: Interactive dashboard using D3.js and Python, providing real-time analytics for business intelligence.</p>
+                    <div class="post-actions">
+                        <div>
+                            <button class="action-btn view-demo-btn"><i class="fas fa-eye"></i> View Demo</button>
+                            <button class="action-btn view-details-btn"><i class="fas fa-info-circle"></i> Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-card" data-image="https://picsum.photos/400/400?random=4" data-caption="Brand Identity Package: Complete branding for a tech startup, including logo, color palette, typography, and marketing materials.">
+                <img src="https://picsum.photos/400/400?random=4" alt="Project 4" class="post-image">
+                <div class="post-content">
+                    <div class="post-header">
+                        <img src="Jujutsu Kaisen - Ryomen Sukuna icon_.jpg" alt="Ryomen Sukuna" class="post-avatar">
+                        <div class="post-info">
+                            <h4>Brand Identity</h4>
+                            <span>Graphic Design</span>
+                        </div>
+                    </div>
+                    <p class="post-caption">Brand Identity Package: Complete branding for a tech startup, including logo, color palette, typography, and marketing materials.</p>
+                    <div class="post-actions">
+                        <div>
+                            <button class="action-btn view-demo-btn"><i class="fas fa-eye"></i> View Demo</button>
+                            <button class="action-btn view-details-btn"><i class="fas fa-info-circle"></i> Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-card" data-image="https://picsum.photos/400/400?random=5" data-caption="Social Media Campaign: Viral marketing strategy that increased engagement by 300%, utilizing targeted ads and content creation.">
+                <img src="https://picsum.photos/400/400?random=5" alt="Project 5" class="post-image">
+                <div class="post-content">
+                    <div class="post-header">
+                        <img src="Jujutsu Kaisen - Ryomen Sukuna icon_.jpg" alt="Ryomen Sukuna" class="post-avatar">
+                        <div class="post-info">
+                            <h4>Social Campaign</h4>
+                            <span>Digital Marketing</span>
+                        </div>
+                    </div>
+                    <p class="post-caption">Social Media Campaign: Viral marketing strategy that increased engagement by 300%, utilizing targeted ads and content creation.</p>
+                    <div class="post-actions">
+                        <div>
+                            <button class="action-btn view-demo-btn"><i class="fas fa-eye"></i> View Demo</button>
+                            <button class="action-btn view-details-btn"><i class="fas fa-info-circle"></i> Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-card" data-image="https://picsum.photos/400/400?random=6" data-caption="Portfolio Website: This very site you're viewing, built with HTML, CSS, and JavaScript, showcasing modern web development techniques.">
+                <img src="https://picsum.photos/400/400?random=6" alt="Project 6" class="post-image">
+                <div class="post-content">
+                    <div class="post-header">
+                        <img src="Jujutsu Kaisen - Ryomen Sukuna icon_.jpg" alt="Ryomen Sukuna" class="post-avatar">
+                        <div class="post-info">
+                            <h4>Portfolio Website</h4>
+                            <span>Web Development</span>
+                        </div>
+                    </div>
+                    <p class="post-caption">Portfolio Website: This very site you're viewing, built with HTML, CSS, and JavaScript, showcasing modern web development techniques.</p>
+                    <div class="post-actions">
+                        <div>
+                            <button class="action-btn view-demo-btn"><i class="fas fa-eye"></i> View Demo</button>
+                            <button class="action-btn view-details-btn"><i class="fas fa-info-circle"></i> Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <iframe id="videoFrame" src="" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Testimonial Section -->
+    <section id="testimonial" class="testimonial">
+        <h2 class="section-title">Valuable <span class="highlight">Testimonial</span></h2>
+        <div class="testimonial-container">
+            <div class="testimonial-wrapper">
+                <div class="testimonial-card">
+                    <img src="https://picsum.photos/100/100?random=9" alt="Client 1">
+                    <h4>G-Dev 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid iure delectus corrupti impedit. Beatae aperiam et iusto nostrum possimus cum pariatur horum assumenda suscipit a, qui tempora maxime nulla facere quo ipsum tempore. Atque libero provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi aperiam fugit unde nihil. Iste nantique illum. Dignissimos enim officia consequuntur dolores.</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://picsum.photos/100/100?random=10" alt="Client 2">
+                    <h4>G-Dev 2</h4>
+                    <p>Exceptional work! The attention to detail and professional approach exceeded all expectations. Every aspect of the project was handled with care and expertise. Highly recommended for anyone seeking quality service.</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://picsum.photos/100/100?random=11" alt="Client 3">
+                    <h4>G-Dev 3</h4>
+                    <p>Outstanding collaboration from start to finish. The creativity and technical skills demonstrated were impressive. Delivered exactly what we needed, on time and beyond our expectations.</p>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <div class="nav-arrow" id="prevBtn">‹</div>
+                <div class="nav-arrow" id="nextBtn">›</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact <span class="highlight">Me!</span></h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Mobile Number" required>
+            <input type="text" placeholder="Email Subject" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

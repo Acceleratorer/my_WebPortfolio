@@ -1,0 +1,35 @@
+{
+  "name": "gustiawan-dev-portfolio",
+  "version": "1.0.0",
+  "description": "A sleek portfolio website with black and red theme featuring Gen Z style",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'Static site - no build process required'",
+    "preview": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "frontend",
+    "responsive",
+    "black-red-theme",
+    "gen-z-style"
+  ],
+  "author": "Gustiawan Dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gustiawan-dev/gustiawan-dev-portfolio.git"
+  },
+  "homepage": "https://gustiawan-dev.com",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -75,11 +75,11 @@ function typeText(element, text, speed = 100) {
 
 window.addEventListener('load', () => {
     setTimeout(() => {
-        typeText(document.getElementById('typing-name'), 'GUSTIAWANDEV', 150);
+        typeText(document.getElementById('typing-name'), 'ACCELRA', 150);
         setTimeout(() => {
             const subtitle = document.getElementById('typing-subtitle');
             subtitle.textContent = '';
-            typeText(subtitle, 'Calon Web Developer', 100);
+            typeText(subtitle, 'AI Engineer | Data Scientist ', 100);
         }, 1500);
     }, 500);
 });
@@ -361,3 +361,4 @@ document.querySelector('.cta-button')?.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+

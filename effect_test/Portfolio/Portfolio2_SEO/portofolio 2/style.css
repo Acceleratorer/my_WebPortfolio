@@ -379,11 +379,38 @@ body {
 .skill-card[data-skill="terminal"] span { color: #4d4d4d; }
 .skill-card[data-skill="adobe"] i { color: #ff0000; }
 .skill-card[data-skill="adobe"] span { color: #ff0000; }
-
-.skill-card.hidden, .contact-card.hidden {
-    display: none;
-}
-
+.skill-card[data-skill="Kubernetes"] i { color: #326ce5; }
+.skill-card[data-skill="Kubernetes"] span { color: #326ce5; }
+.skill-card[data-skill="TensorFlow"] i { color: #ff6f00; }
+.skill-card[data-skill="TensorFlow"] span { color: #ff6f00; }
+.skill-card[data-skill="PyTorch"] i { color: #ee4c2c; }
+.skill-card[data-skill="PyTorch"] span { color: #ee4c2c; }
+.skill-card[data-skill="Matplotlib"] i { color: #11557c; }
+.skill-card[data-skill="Matplotlib"] span { color: #11557c; }
+.skill-card[data-skill="Seaborn"] i { color: #4c72b0; }
+.skill-card[data-skill="Seaborn"] span { color: #4c72b0; }
+.skill-card[data-skill="Numpy"] i { color: #013243; }
+.skill-card[data-skill="Numpy"] span { color: #013243; }
+.skill-card[data-skill="Pandas"] i { color: #150458; }
+.skill-card[data-skill="Pandas"] span { color: #150458; }
+.skill-card[data-skill="Machine Learning"] i { color: #ff9900; }
+.skill-card[data-skill="Machine Learning"] span { color: #ff9900; }
+.skill-card[data-skill="PostgreSQL"] i { color: #336791; }
+.skill-card[data-skill="PostgreSQL"] span { color: #336791; }
+.skill-card[data-skill="Keras"] i { color: #d00000; }
+.skill-card[data-skill="Keras"] span { color: #d00000; }
+.skill-card[data-skill="Jupyter Notebook"] i { color: #f37626; }
+.skill-card[data-skill="Jupyter Notebook"] span { color: #f37626; }
+.skill-card[data-skill="R"] i { color: #276dc3; }
+.skill-card[data-skill="R"] span { color: #276dc3; }
+.skill-card[data-skill="C++"] i { color: #00599c; }
+.skill-card[data-skill="C++"] span { color: #00599c; }
+.skill-card[data-skill="Java"] i { color: #f89820; }
+.skill-card[data-skill="Java"] span { color: #f89820; }
+.skill-card[data-skill="C#"] i { color: #00599c; }
+.skill-card[data-skill="C#"] span { color: #00599c; }
+.skill-card[data-skill="C"] i { color: #a8b9cc; }
+.skill-card[data-skill="C"] span { color: #a8b9cc; }
 .skill-card:hover, .contact-card:hover {
     transform: translateY(-2px);
     background: #333;
@@ -435,7 +462,7 @@ body {
     width: calc(120px * 16);
     animation-play-state: running;
     cursor: grab;
-    user-select: none;
+    -webkit-user-select: none;
     flex-shrink: 0;
 }
 
@@ -804,4 +831,13 @@ section {
     .contact-info {
         grid-template-columns: 1fr;
     }
+}
+.icon-pytorch-fix {
+    color: #EE4C2C; 
+    font-family: "Font Awesome 6 Brands"; 
+    font-weight: 400; 
+}
+
+.icon-pytorch-fix::before {
+    content: "\f800"; 
 }
